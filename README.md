@@ -1,11 +1,13 @@
-# clean-code
+# Clean Code Principle 
 How to write clean and maintainable code ?
+- Following the below rule will get your answer
 
 # Naming Matter
  Class Naming
  
- - Should Be Noun
- - SRP Single Responsiblty Principle 
+ - Should Be a noun 
+ - Should be PascalCase => HttpClient
+ - SRP Single Responsibility Principle 
  
  Method Naming
  - Should be Verb + Noun => getEmployee
@@ -21,7 +23,9 @@ How to write clean and maintainable code ?
 # Class Constructor 
 There are 3 methodology to write a constructor
 - Static Method Factory
-
 - Constructor Chain ( Dont DRY [ Don't Repeat yourself]
-
+- Constructor Telescoping 
+    For Example :
+        if you develop a backend for a Restaurant and you create a class for Pizza
+        this class will have a many parameters , so in this case we should use Builder pattern
 
