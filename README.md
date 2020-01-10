@@ -19,4 +19,6 @@ How to write clean and maintainable code ?
  - for boolean params it should start with is like isActive
 
 # Class Constructor 
-Static Method Factory
+There are 3 methodology to write a constructor
+- Static Method Factory
+- Constructor Chain ( Dont DRY [ Don't Repeat yourself]
