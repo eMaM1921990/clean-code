@@ -21,4 +21,7 @@ How to write clean and maintainable code ?
 # Class Constructor 
 There are 3 methodology to write a constructor
 - Static Method Factory
+
 - Constructor Chain ( Dont DRY [ Don't Repeat yourself]
+
+
